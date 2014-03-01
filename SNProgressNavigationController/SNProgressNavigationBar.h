@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class SNProgressNavigationItem;
+#import <SNProgressNavigationController/SNProgressNavigationItem.h>
 
 @interface SNProgressNavigationBar : UINavigationBar
 

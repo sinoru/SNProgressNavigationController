@@ -8,8 +8,6 @@
 
 #import "SNProgressNavigationBar.h"
 
-#import "SNProgressNavigationItem.h"
-
 @interface UINavigationBar (private)
 
 - (void)pushNavigationItem:(SNProgressNavigationItem *)item;
