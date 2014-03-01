@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1993BDEC18C24851002DD9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDEB18C24851002DD9E2 /* Foundation.framework */; };
+		1993BDF118C24851002DD9E2 /* SNProgressNavigationController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1993BDF018C24851002DD9E2 /* SNProgressNavigationController.h */; };
+		1993BDF318C24851002DD9E2 /* SNProgressNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BDF218C24851002DD9E2 /* SNProgressNavigationController.m */; };
+		1993BDFA18C24851002DD9E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDF918C24851002DD9E2 /* XCTest.framework */; };
+		1993BDFB18C24851002DD9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDEB18C24851002DD9E2 /* Foundation.framework */; };
+		1993BDFD18C24851002DD9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDFC18C24851002DD9E2 /* UIKit.framework */; };
+		1993BE0018C24851002DD9E2 /* libSNProgressNavigationController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDE818C24851002DD9E2 /* libSNProgressNavigationController.a */; };
+		1993BE0618C24851002DD9E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1993BE0418C24851002DD9E2 /* InfoPlist.strings */; };
+		1993BE0818C24851002DD9E2 /* SNProgressNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BE0718C24851002DD9E2 /* SNProgressNavigationControllerTests.m */; };
+		1993BE1618C2487B002DD9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDEB18C24851002DD9E2 /* Foundation.framework */; };
+		1993BE1818C2487B002DD9E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BE1718C2487B002DD9E2 /* CoreGraphics.framework */; };
+		1993BE1918C2487B002DD9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDFC18C24851002DD9E2 /* UIKit.framework */; };
+		1993BE1F18C2487B002DD9E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1993BE1D18C2487B002DD9E2 /* InfoPlist.strings */; };
+		1993BE2118C2487B002DD9E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BE2018C2487B002DD9E2 /* main.m */; };
+		1993BE2518C2487B002DD9E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BE2418C2487B002DD9E2 /* AppDelegate.m */; };
+		1993BE2718C2487B002DD9E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1993BE2618C2487B002DD9E2 /* Images.xcassets */; };
+		1993BE2D18C2487B002DD9E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDF918C24851002DD9E2 /* XCTest.framework */; };
+		1993BE2E18C2487B002DD9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDEB18C24851002DD9E2 /* Foundation.framework */; };
+		1993BE2F18C2487B002DD9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDFC18C24851002DD9E2 /* UIKit.framework */; };
+		1993BE3718C2487B002DD9E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1993BE3518C2487B002DD9E2 /* InfoPlist.strings */; };
+		1993BE3918C2487B002DD9E2 /* SNNavigationControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BE3818C2487B002DD9E2 /* SNNavigationControllerDemoTests.m */; };
+		1993BE4218C248BA002DD9E2 /* SNProgressNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BE4118C248BA002DD9E2 /* SNProgressNavigationBar.m */; };
+		1993BE4518C24A5B002DD9E2 /* SNProgressNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BE4418C24A5B002DD9E2 /* SNProgressNavigationItem.m */; };
+		1993BE4E18C24DBB002DD9E2 /* SNProgressNavigationBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1993BE4018C248BA002DD9E2 /* SNProgressNavigationBar.h */; };
+		1993BE4F18C24DBD002DD9E2 /* SNProgressNavigationItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1993BE4318C24A5B002DD9E2 /* SNProgressNavigationItem.h */; };
+		1993BE5018C24E40002DD9E2 /* libSNProgressNavigationController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993BDE818C24851002DD9E2 /* libSNProgressNavigationController.a */; };
+		1993BE5318C24E79002DD9E2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BE5218C24E79002DD9E2 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1993BDFE18C24851002DD9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1993BDE018C24851002DD9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1993BDE718C24851002DD9E2;
+			remoteInfo = SNProgressNavigationController;
+		};
+		1993BE3018C2487B002DD9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1993BDE018C24851002DD9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1993BE1418C2487B002DD9E2;
+			remoteInfo = SNNavigationControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1993BDE618C24851002DD9E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1993BDF118C24851002DD9E2 /* SNProgressNavigationController.h in CopyFiles */,
+				1993BE4E18C24DBB002DD9E2 /* SNProgressNavigationBar.h in CopyFiles */,
+				1993BE4F18C24DBD002DD9E2 /* SNProgressNavigationItem.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1993BDE818C24851002DD9E2 /* libSNProgressNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSNProgressNavigationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1993BDEB18C24851002DD9E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1993BDEF18C24851002DD9E2 /* SNProgressNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SNProgressNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		1993BDF018C24851002DD9E2 /* SNProgressNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNProgressNavigationController.h; sourceTree = "<group>"; };
+		1993BDF218C24851002DD9E2 /* SNProgressNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNProgressNavigationController.m; sourceTree = "<group>"; };
+		1993BDF818C24851002DD9E2 /* SNProgressNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNProgressNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1993BDF918C24851002DD9E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1993BDFC18C24851002DD9E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1993BE0318C24851002DD9E2 /* SNProgressNavigationControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SNProgressNavigationControllerTests-Info.plist"; sourceTree = "<group>"; };
+		1993BE0518C24851002DD9E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1993BE0718C24851002DD9E2 /* SNProgressNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNProgressNavigationControllerTests.m; sourceTree = "<group>"; };
+		1993BE1518C2487B002DD9E2 /* SNNavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNNavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1993BE1718C2487B002DD9E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1993BE1C18C2487B002DD9E2 /* SNNavigationControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SNNavigationControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		1993BE1E18C2487B002DD9E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1993BE2018C2487B002DD9E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1993BE2218C2487B002DD9E2 /* SNNavigationControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SNNavigationControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1993BE2318C2487B002DD9E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1993BE2418C2487B002DD9E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1993BE2618C2487B002DD9E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1993BE2C18C2487B002DD9E2 /* SNNavigationControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNNavigationControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1993BE3418C2487B002DD9E2 /* SNNavigationControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SNNavigationControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		1993BE3618C2487B002DD9E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1993BE3818C2487B002DD9E2 /* SNNavigationControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNNavigationControllerDemoTests.m; sourceTree = "<group>"; };
+		1993BE4018C248BA002DD9E2 /* SNProgressNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNProgressNavigationBar.h; sourceTree = "<group>"; };
+		1993BE4118C248BA002DD9E2 /* SNProgressNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNProgressNavigationBar.m; sourceTree = "<group>"; };
+		1993BE4318C24A5B002DD9E2 /* SNProgressNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNProgressNavigationItem.h; sourceTree = "<group>"; };
+		1993BE4418C24A5B002DD9E2 /* SNProgressNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNProgressNavigationItem.m; sourceTree = "<group>"; };
+		1993BE5118C24E79002DD9E2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1993BE5218C24E79002DD9E2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1993BDE518C24851002DD9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BDEC18C24851002DD9E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1993BDF518C24851002DD9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BDFA18C24851002DD9E2 /* XCTest.framework in Frameworks */,
+				1993BDFD18C24851002DD9E2 /* UIKit.framework in Frameworks */,
+				1993BDFB18C24851002DD9E2 /* Foundation.framework in Frameworks */,
+				1993BE0018C24851002DD9E2 /* libSNProgressNavigationController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1993BE1218C2487B002DD9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BE1818C2487B002DD9E2 /* CoreGraphics.framework in Frameworks */,
+				1993BE1918C2487B002DD9E2 /* UIKit.framework in Frameworks */,
+				1993BE1618C2487B002DD9E2 /* Foundation.framework in Frameworks */,
+				1993BE5018C24E40002DD9E2 /* libSNProgressNavigationController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1993BE2918C2487B002DD9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BE2D18C2487B002DD9E2 /* XCTest.framework in Frameworks */,
+				1993BE2F18C2487B002DD9E2 /* UIKit.framework in Frameworks */,
+				1993BE2E18C2487B002DD9E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1993BDDF18C24851002DD9E2 = {
+			isa = PBXGroup;
+			children = (
+				1993BDED18C24851002DD9E2 /* SNProgressNavigationController */,
+				1993BE0118C24851002DD9E2 /* SNProgressNavigationControllerTests */,
+				1993BE1A18C2487B002DD9E2 /* SNNavigationControllerDemo */,
+				1993BE3218C2487B002DD9E2 /* SNNavigationControllerDemoTests */,
+				1993BDEA18C24851002DD9E2 /* Frameworks */,
+				1993BDE918C24851002DD9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1993BDE918C24851002DD9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1993BDE818C24851002DD9E2 /* libSNProgressNavigationController.a */,
+				1993BDF818C24851002DD9E2 /* SNProgressNavigationControllerTests.xctest */,
+				1993BE1518C2487B002DD9E2 /* SNNavigationControllerDemo.app */,
+				1993BE2C18C2487B002DD9E2 /* SNNavigationControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1993BDEA18C24851002DD9E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1993BDEB18C24851002DD9E2 /* Foundation.framework */,
+				1993BDF918C24851002DD9E2 /* XCTest.framework */,
+				1993BDFC18C24851002DD9E2 /* UIKit.framework */,
+				1993BE1718C2487B002DD9E2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1993BDED18C24851002DD9E2 /* SNProgressNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1993BDF018C24851002DD9E2 /* SNProgressNavigationController.h */,
+				1993BDF218C24851002DD9E2 /* SNProgressNavigationController.m */,
+				1993BE4018C248BA002DD9E2 /* SNProgressNavigationBar.h */,
+				1993BE4118C248BA002DD9E2 /* SNProgressNavigationBar.m */,
+				1993BE4318C24A5B002DD9E2 /* SNProgressNavigationItem.h */,
+				1993BE4418C24A5B002DD9E2 /* SNProgressNavigationItem.m */,
+				1993BDEE18C24851002DD9E2 /* Supporting Files */,
+			);
+			path = SNProgressNavigationController;
+			sourceTree = "<group>";
+		};
+		1993BDEE18C24851002DD9E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1993BDEF18C24851002DD9E2 /* SNProgressNavigationController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1993BE0118C24851002DD9E2 /* SNProgressNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1993BE0718C24851002DD9E2 /* SNProgressNavigationControllerTests.m */,
+				1993BE0218C24851002DD9E2 /* Supporting Files */,
+			);
+			path = SNProgressNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		1993BE0218C24851002DD9E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1993BE0318C24851002DD9E2 /* SNProgressNavigationControllerTests-Info.plist */,
+				1993BE0418C24851002DD9E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1993BE1A18C2487B002DD9E2 /* SNNavigationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1993BE2318C2487B002DD9E2 /* AppDelegate.h */,
+				1993BE2418C2487B002DD9E2 /* AppDelegate.m */,
+				1993BE5118C24E79002DD9E2 /* RootViewController.h */,
+				1993BE5218C24E79002DD9E2 /* RootViewController.m */,
+				1993BE2618C2487B002DD9E2 /* Images.xcassets */,
+				1993BE1B18C2487B002DD9E2 /* Supporting Files */,
+			);
+			path = SNNavigationControllerDemo;
+			sourceTree = "<group>";
+		};
+		1993BE1B18C2487B002DD9E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1993BE1C18C2487B002DD9E2 /* SNNavigationControllerDemo-Info.plist */,
+				1993BE1D18C2487B002DD9E2 /* InfoPlist.strings */,
+				1993BE2018C2487B002DD9E2 /* main.m */,
+				1993BE2218C2487B002DD9E2 /* SNNavigationControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1993BE3218C2487B002DD9E2 /* SNNavigationControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1993BE3818C2487B002DD9E2 /* SNNavigationControllerDemoTests.m */,
+				1993BE3318C2487B002DD9E2 /* Supporting Files */,
+			);
+			path = SNNavigationControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		1993BE3318C2487B002DD9E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1993BE3418C2487B002DD9E2 /* SNNavigationControllerDemoTests-Info.plist */,
+				1993BE3518C2487B002DD9E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1993BDE718C24851002DD9E2 /* SNProgressNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1993BE0B18C24851002DD9E2 /* Build configuration list for PBXNativeTarget "SNProgressNavigationController" */;
+			buildPhases = (
+				1993BDE618C24851002DD9E2 /* CopyFiles */,
+				1993BDE418C24851002DD9E2 /* Sources */,
+				1993BDE518C24851002DD9E2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNProgressNavigationController;
+			productName = SNProgressNavigationController;
+			productReference = 1993BDE818C24851002DD9E2 /* libSNProgressNavigationController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1993BDF718C24851002DD9E2 /* SNProgressNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1993BE0E18C24851002DD9E2 /* Build configuration list for PBXNativeTarget "SNProgressNavigationControllerTests" */;
+			buildPhases = (
+				1993BDF418C24851002DD9E2 /* Sources */,
+				1993BDF518C24851002DD9E2 /* Frameworks */,
+				1993BDF618C24851002DD9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1993BDFF18C24851002DD9E2 /* PBXTargetDependency */,
+			);
+			name = SNProgressNavigationControllerTests;
+			productName = SNProgressNavigationControllerTests;
+			productReference = 1993BDF818C24851002DD9E2 /* SNProgressNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1993BE1418C2487B002DD9E2 /* SNNavigationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1993BE3A18C2487B002DD9E2 /* Build configuration list for PBXNativeTarget "SNNavigationControllerDemo" */;
+			buildPhases = (
+				1993BE1118C2487B002DD9E2 /* Sources */,
+				1993BE1218C2487B002DD9E2 /* Frameworks */,
+				1993BE1318C2487B002DD9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNNavigationControllerDemo;
+			productName = SNNavigationControllerDemo;
+			productReference = 1993BE1518C2487B002DD9E2 /* SNNavigationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1993BE2B18C2487B002DD9E2 /* SNNavigationControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1993BE3D18C2487B002DD9E2 /* Build configuration list for PBXNativeTarget "SNNavigationControllerDemoTests" */;
+			buildPhases = (
+				1993BE2818C2487B002DD9E2 /* Sources */,
+				1993BE2918C2487B002DD9E2 /* Frameworks */,
+				1993BE2A18C2487B002DD9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1993BE3118C2487B002DD9E2 /* PBXTargetDependency */,
+			);
+			name = SNNavigationControllerDemoTests;
+			productName = SNNavigationControllerDemoTests;
+			productReference = 1993BE2C18C2487B002DD9E2 /* SNNavigationControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1993BDE018C24851002DD9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Sinoru;
+				TargetAttributes = {
+					1993BDF718C24851002DD9E2 = {
+						TestTargetID = 1993BE1418C2487B002DD9E2;
+					};
+					1993BE2B18C2487B002DD9E2 = {
+						TestTargetID = 1993BE1418C2487B002DD9E2;
+					};
+				};
+			};
+			buildConfigurationList = 1993BDE318C24851002DD9E2 /* Build configuration list for PBXProject "SNProgressNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1993BDDF18C24851002DD9E2;
+			productRefGroup = 1993BDE918C24851002DD9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1993BDE718C24851002DD9E2 /* SNProgressNavigationController */,
+				1993BDF718C24851002DD9E2 /* SNProgressNavigationControllerTests */,
+				1993BE1418C2487B002DD9E2 /* SNNavigationControllerDemo */,
+				1993BE2B18C2487B002DD9E2 /* SNNavigationControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1993BDF618C24851002DD9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BE0618C24851002DD9E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1993BE1318C2487B002DD9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BE1F18C2487B002DD9E2 /* InfoPlist.strings in Resources */,
+				1993BE2718C2487B002DD9E2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1993BE2A18C2487B002DD9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BE3718C2487B002DD9E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1993BDE418C24851002DD9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BDF318C24851002DD9E2 /* SNProgressNavigationController.m in Sources */,
+				1993BE4218C248BA002DD9E2 /* SNProgressNavigationBar.m in Sources */,
+				1993BE4518C24A5B002DD9E2 /* SNProgressNavigationItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1993BDF418C24851002DD9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BE0818C24851002DD9E2 /* SNProgressNavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1993BE1118C2487B002DD9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BE2518C2487B002DD9E2 /* AppDelegate.m in Sources */,
+				1993BE2118C2487B002DD9E2 /* main.m in Sources */,
+				1993BE5318C24E79002DD9E2 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1993BE2818C2487B002DD9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993BE3918C2487B002DD9E2 /* SNNavigationControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1993BDFF18C24851002DD9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1993BDE718C24851002DD9E2 /* SNProgressNavigationController */;
+			targetProxy = 1993BDFE18C24851002DD9E2 /* PBXContainerItemProxy */;
+		};
+		1993BE3118C2487B002DD9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1993BE1418C2487B002DD9E2 /* SNNavigationControllerDemo */;
+			targetProxy = 1993BE3018C2487B002DD9E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1993BE0418C24851002DD9E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1993BE0518C24851002DD9E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1993BE1D18C2487B002DD9E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1993BE1E18C2487B002DD9E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1993BE3518C2487B002DD9E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1993BE3618C2487B002DD9E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1993BE0918C24851002DD9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1993BE0A18C24851002DD9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1993BE0C18C24851002DD9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SNProgressNavigationController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNProgressNavigationController/SNProgressNavigationController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1993BE0D18C24851002DD9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SNProgressNavigationController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNProgressNavigationController/SNProgressNavigationController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1993BE0F18C24851002DD9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SNNavigationControllerDemo.app/SNNavigationControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNProgressNavigationController/SNProgressNavigationController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SNProgressNavigationControllerTests/SNProgressNavigationControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1993BE1018C24851002DD9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SNNavigationControllerDemo.app/SNNavigationControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNProgressNavigationController/SNProgressNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SNProgressNavigationControllerTests/SNProgressNavigationControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		1993BE3B18C2487B002DD9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNNavigationControllerDemo/SNNavigationControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/include",
+				);
+				INFOPLIST_FILE = "SNNavigationControllerDemo/SNNavigationControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1993BE3C18C2487B002DD9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNNavigationControllerDemo/SNNavigationControllerDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/include",
+				);
+				INFOPLIST_FILE = "SNNavigationControllerDemo/SNNavigationControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1993BE3E18C2487B002DD9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SNNavigationControllerDemo.app/SNNavigationControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNNavigationControllerDemo/SNNavigationControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/include",
+				);
+				INFOPLIST_FILE = "SNNavigationControllerDemoTests/SNNavigationControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1993BE3F18C2487B002DD9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SNNavigationControllerDemo.app/SNNavigationControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNNavigationControllerDemo/SNNavigationControllerDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/include",
+				);
+				INFOPLIST_FILE = "SNNavigationControllerDemoTests/SNNavigationControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1993BDE318C24851002DD9E2 /* Build configuration list for PBXProject "SNProgressNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1993BE0918C24851002DD9E2 /* Debug */,
+				1993BE0A18C24851002DD9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1993BE0B18C24851002DD9E2 /* Build configuration list for PBXNativeTarget "SNProgressNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1993BE0C18C24851002DD9E2 /* Debug */,
+				1993BE0D18C24851002DD9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1993BE0E18C24851002DD9E2 /* Build configuration list for PBXNativeTarget "SNProgressNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1993BE0F18C24851002DD9E2 /* Debug */,
+				1993BE1018C24851002DD9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1993BE3A18C2487B002DD9E2 /* Build configuration list for PBXNativeTarget "SNNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1993BE3B18C2487B002DD9E2 /* Debug */,
+				1993BE3C18C2487B002DD9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1993BE3D18C2487B002DD9E2 /* Build configuration list for PBXNativeTarget "SNNavigationControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1993BE3E18C2487B002DD9E2 /* Debug */,
+				1993BE3F18C2487B002DD9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1993BDE018C24851002DD9E2 /* Project object */;
+}
