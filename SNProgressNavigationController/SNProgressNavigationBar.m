@@ -90,12 +90,22 @@ static int const PrivateKVOContext;
 
 - (SNProgressNavigationItem *)popNavigationItemAnimated:(BOOL)animated
 {
-    SNProgressNavigationItem *item = (SNProgressNavigationItem *)[super popNavigationItemAnimated:animated];
+    SNProgressNavigationItem *oldItem = (SNProgressNavigationItem *)[super popNavigationItemAnimated:animated];
     
-    [item removeObserver:self forKeyPath:@"progressValue"];
-    [item removeObserver:self forKeyPath:@"hidesProgressValue"];
+    [oldItem removeObserver:self forKeyPath:@"progressValue"];
+    [oldItem removeObserver:self forKeyPath:@"hidesProgressValue"];
     
-    return item;
+    SNProgressNavigationItem *item = self.topItem;
+    
+    [self.progressView setProgress:item.progress animated:animated];
+    
+    if (item.hidesProgress != !self.progressView.alpha) {
+        [UIView animateWithDuration:0.3f animations:^{
+            self.progressView.alpha = !item.hidesProgress;
+        }];
+    }
+    
+    return oldItem;
 }
 
 - (void)setItems:(NSArray *)items animated:(BOOL)animated
